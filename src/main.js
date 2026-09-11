@@ -131,7 +131,7 @@ function indexTemplate() {
 function articleTemplate(chapter) {
   return `
     <article class="article-page page-width">
-      <a class="back-link" href="#lessons" data-view="index">← Back to chapters</a>
+      <a class="back-link" href="#chapters" data-view="index">← Back to chapters</a>
       <p class="eyebrow">${chapter.article.label}</p>
       <h1>${chapter.article.title}</h1>
       <p class="article-intro">${chapter.article.intro}</p>
@@ -146,14 +146,14 @@ function appTemplate(view = 'home') {
   return `
     <header class="site-header">
       <a class="brand" href="#home" data-view="home" aria-label="Japanese Language Society home"><span class="brand-mark">学</span><span class="brand-name">Japanese<br><strong>Language Society</strong></span></a>
-      <nav class="main-nav" aria-label="Main navigation"><a href="#home" data-view="home" class="nav-link ${!indexView && !chapter ? 'active' : ''}">Home</a><a href="#lessons" data-view="index" class="nav-link ${indexView || chapter ? 'active' : ''}">Chapters</a></nav>
+      <nav class="main-nav" aria-label="Main navigation"><a href="#home" data-view="home" class="nav-link ${!indexView && !chapter ? 'active' : ''}">Home</a><a href="#chapters" data-view="index" class="nav-link ${indexView || chapter ? 'active' : ''}">Chapters</a></nav>
     </header>
     <main>${chapter ? articleTemplate(chapter) : indexView ? indexTemplate() : homeTemplate()}</main>
   `;
 }
 
 function viewFromHash() {
-  if (window.location.hash === '#lessons') return 'index';
+  if (window.location.hash === '#chapters') return 'index';
   const chapter = window.location.hash.replace('#', '');
   return chapters.some((item) => `chapter-${item.number}` === chapter)
     ? chapter
@@ -167,7 +167,7 @@ function render(view) {
       window.history.replaceState(
         {},
         '',
-        `#${link.dataset.view === 'index' ? 'lessons' : link.dataset.view}`,
+        `#${link.dataset.view === 'index' ? 'chapters' : link.dataset.view}`,
       );
       render(link.dataset.view);
       window.scrollTo({ top: 0, behavior: 'smooth' });
