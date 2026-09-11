@@ -13,7 +13,7 @@ const chapters = [
       sections: [
         [
           'Week 1 PowerPoint',
-          '<a href="/pp/Japanese%20Language%20Society%20Week%201.pdf" target="_blank">Click here to view.</a>',
+          `<a href="${import.meta.env.BASE_URL}pp/Japanese%20Language%20Society%20Week%201.pdf" target="_blank">Click here to view.</a>`,
         ],
         [
           'だ vs です',
