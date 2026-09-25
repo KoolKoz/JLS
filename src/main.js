@@ -50,7 +50,7 @@ const chapters = [
         ],
         [
           'Important links',
-          '<a href="https://apps.ankiweb.net/ " target="_blank" rel="noreferrer">Anki</a> is an amazing spaced repetition flashcard app. If you need help installing, check the last view slides of the PowerPoint or contact us. There are plenty of Japanese decks available online, but one we recommend for beginners is the <a href="https://apps.ankiweb.net/ " target="_blank" rel="noreferrer">Tango N5 Deck.</a>',
+          '<a href="https://apps.ankiweb.net/ " target="_blank" rel="noreferrer">Anki</a> is an amazing spaced repetition flashcard app. If you need help installing, check the last view slides of the PowerPoint or contact us. There are plenty of Japanese decks available online, but one we recommend for beginners is the <a href="https://ankiweb.net/shared/info/419481234" target="_blank" rel="noreferrer">Tango N5 Deck.</a>',
         ],
       ],
     },
