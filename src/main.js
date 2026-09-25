@@ -31,6 +31,31 @@ const chapters = [
     },
   },
   {
+    number: '02',
+    title: 'Nouns, Adjectives, Verbs',
+    description: 'Week 2',
+    article: {
+      label: 'Chapter 02',
+      title: 'Nouns, Adjectives, Verbs',
+      intro:
+        'An introduction to the nouns, adjectives, verbs and some basic conjugation.',
+      sections: [
+        [
+          'Week 2 PowerPoint',
+          `<a href="${import.meta.env.BASE_URL}pp/Japanese%20Language%20Society%20Week%202.pdf" target="_blank">Click here to view.</a>`,
+        ],
+        [
+          'Additional info: the JLPT',
+          'The JLPT (Japanese-Language Proficiency Test) is a standardized test for non-native speakers of Japanese. It has five levels, from N5 (beginner) to N1 (advanced). You can choose to study based on the material in these tests or study whatever vocab or grammar pops up in your own immersion. Personally, I liked starting off with N5-N4 material, then moving onto my own immersion where I naturally learned more advanced concepts.',
+        ],
+        [
+          'Important links',
+          '<a href="https://apps.ankiweb.net/ " target="_blank" rel="noreferrer">Anki</a> is an amazing spaced repetition flashcard app. If you need help installing, check the last view slides of the PowerPoint or contact us. There are plenty of Japanese decks available online, but one we recommend for beginners is the <a href="https://apps.ankiweb.net/ " target="_blank" rel="noreferrer">Tango N5 Deck.</a>',
+        ],
+      ],
+    },
+  },
+  {
     number: 'X.01',
     title: 'Useful resources',
     description: '',
