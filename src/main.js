@@ -56,6 +56,27 @@ const chapters = [
     },
   },
   {
+    number: '03',
+    title: 'Important grammar points and particles',
+    description: 'Week 3',
+    article: {
+      label: 'Chapter 03',
+      title: 'Important grammar points and particles',
+      intro:
+        'An introduction to important grammar points and particles in Japanese.',
+      sections: [
+        [
+          'Week 3 PowerPoint',
+          `<a href="${import.meta.env.BASE_URL}pp/Japanese%20Language%20Society%20Week%203.pdf" target="_blank">Click here to view.</a>`,
+        ],
+        [
+          'More on だけ (dake)',
+          'だけ means "only" or "just".<br/><br/>Ex: 水だけです。(mizu dake desu.) = It\'s <b>just/only</b> water.<br/><br/> However, it\'s important to note that だけ can sometimes carry the nuance of insignifancy. For example, the past example can be interpreted as "It\'s only water. Nothing special." This is especially true when "ただの" comes before word.<br/><br/>Ex: ただの水だけです。(tada no mizu dake desu.) = It\'s <b>just/merely</b> water.',
+        ],
+      ],
+    },
+  },
+  {
     number: 'X.01',
     title: 'Useful resources',
     description: '',
