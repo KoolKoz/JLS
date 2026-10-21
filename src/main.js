@@ -71,7 +71,36 @@ const chapters = [
         ],
         [
           'More on だけ (dake)',
-          'だけ means "only" or "just".<br/><br/>Ex: 水だけです。(mizu dake desu.) = It\'s <b>just/only</b> water.<br/><br/> However, it\'s important to note that だけ can sometimes carry the nuance of insignifancy. For example, the past example can be interpreted as "It\'s only water. Nothing special." This is especially true when "ただの" comes before word.<br/><br/>Ex: ただの水だけです。(tada no mizu dake desu.) = It\'s <b>just/merely</b> water.',
+          'だけ means "only" or "just".<br/><br/>Ex: 水だけです。(mizu dake desu.) = It\'s <b>just/only</b> water.<br/><br/> However, it\'s important to note that だけ can sometimes carry the nuance of insignifancy. For example, the past example can be interpreted as "It\'s only water. Nothing special." This is especially true when "ただの" comes before the word.<br/><br/>Ex: ただの水だけです。(tada no mizu dake desu.) = It\'s <b>just/merely</b> water.',
+        ],
+      ],
+    },
+  },
+  {
+    number: '04',
+    title: 'More important grammar points and particles',
+    description: 'Week 4',
+    article: {
+      label: 'Chapter 04',
+      title: 'More important grammar points and particles',
+      intro:
+        'An continuation of important grammar points and particles in Japanese.',
+      sections: [
+        [
+          'Week 4 PowerPoint',
+          `<a href="${import.meta.env.BASE_URL}pp/Japanese%20Language%20Society%20Week%204.pdf" target="_blank">Click here to view.</a>`,
+        ],
+        [
+          'まで (made)',
+          'まで means "until" or "up to" and can be used in context of place or time.<br/><br/>Ex: 駅まで歩く。(eki made aruku.) = I will walk <b>until</b> the station.<br/>Ex: 8時までです。(hachiji made desu.) = It\'s <b>until</b> 8 o\'clock.',
+        ],
+        [
+          'までに (madeni)',
+          'までに means "by" or "before" and is used to indicate a deadline or a point in time by which something should be completed. It\'s literally a combination of まで (meaning "until") and に (meaning "at" or "by").<br/><br/>Ex: 5時までに来い。(goji made ni koi.) = Come <b>by</b> 5 o\'clock.<br/>Ex: 明日までに宿題をする。(ashita made ni shukudai o suru.) = I will do my homework <b>by</b> tomorrow.',
+        ],
+        [
+          'Important links',
+          'At meeting 4, one of our members demonstrated his new Japanese learning app, <a href="https://www.tsumu.me/" target="_blank" rel="noreferrer">Tsumu</a>. It\'s a great resource for learning hiragana/katakana, kanji, and grammar. Sign up, give it a shot, and make sure to give him feedback in the WhatsApp!',
         ],
       ],
     },
@@ -101,6 +130,10 @@ const chapters = [
         [
           'Bunpro',
           '<a href="https://www.bunpro.jp/" target="_blank" rel="noreferrer">Bunpro</a> is an excellent resource for grammar. All of its lessons are sorted by JLPT level and are very well written.',
+        ],
+        [
+          'Tsumu',
+          '<a href="https://www.tsumu.me/" target="_blank" rel="noreferrer">Tsumu</a> is a cool app that one of our own members developed! It\'s like a big mix of other resources in one app and is useful for learning hiragana/katakana (which I know a lot of us are still learning), kanji, and grammar. Sign up, give it a shot, and make sure to give him feedback in the WhatsApp!',
         ],
       ],
     },
