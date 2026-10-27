@@ -106,6 +106,22 @@ const chapters = [
     },
   },
   {
+    number: '05',
+    title: 'Article Analysis Pt. 1',
+    description: 'Week 5',
+    article: {
+      label: 'Chapter 05',
+      title: 'Article Analysis Pt. 1',
+      intro: 'A deep dive into a real Japanese news article.',
+      sections: [
+        [
+          'Week 5 Article',
+          `<a href="${import.meta.env.BASE_URL}pp/Japanese%20Language%20Society%20Week%205.pdf" target="_blank">Click here to view the annotated article.</a>`,
+        ],
+      ],
+    },
+  },
+  {
     number: 'X.01',
     title: 'Useful resources',
     description: '',
