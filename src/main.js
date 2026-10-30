@@ -116,7 +116,27 @@ const chapters = [
       sections: [
         [
           'Week 5 Article',
-          `<a href="${import.meta.env.BASE_URL}pp/Japanese%20Language%20Society%20Week%205.pdf" target="_blank">Click here to view the annotated article.</a>`,
+          `<a href="${import.meta.env.BASE_URL}pp/Japanese%20Language%20Society%20Week%205+6.pdf" target="_blank">Click here to view the annotated article.</a>`,
+        ],
+      ],
+    },
+  },
+  {
+    number: '06',
+    title: 'Article Analysis Pt. 2',
+    description: 'Week 6',
+    article: {
+      label: 'Chapter 06',
+      title: 'Article Analysis Pt. 2',
+      intro: 'A deep dive into a real Japanese news article.',
+      sections: [
+        [
+          'Week 6 Article',
+          `<a href="${import.meta.env.BASE_URL}pp/Japanese%20Language%20Society%20Week%205+6.pdf" target="_blank">Click here to view the annotated article.</a>`,
+        ],
+        [
+          '~ている (~teiru) form conjugation guide',
+          `1. Take any verb (for this example, we'll use 食べる (taberu) = to eat).<br/>2. Conjugate to the て (te) form. In this case, 食べる becomes 食べて (tabete), but note that depending on the verb, the conjugation might vary. Moreover, the て form here is used as a soft "and", not as an imperative.<br/>3. Add いる (iru) --> 食べている (tabeteiru) = eating. いる (which is defined as "to be" or "to exist") is used to show that the subject is "being" in that state of action. In this case, the subject is "being" in the state of eating.<br/>4. Conjugate いる to the polite form います (imasu) --> 食べています (tabeteimasu) = eating (polite).<br/><br/>Furthermore, the ~ている (~teiru) form can also be used to describe a state of being, not just an ongoing action. For example, 寝ている (neteiru) can mean "sleeping" or "is asleep".`,
         ],
       ],
     },
@@ -146,6 +166,10 @@ const chapters = [
         [
           'Bunpro',
           '<a href="https://www.bunpro.jp/" target="_blank" rel="noreferrer">Bunpro</a> is an excellent resource for grammar. All of its lessons are sorted by JLPT level and are very well written.',
+        ],
+        [
+          'Anki',
+          '<a href="https://apps.ankiweb.net/" target="_blank" rel="noreferrer">Anki</a> is a vital resource for learning Japanese. It\'s a spaced repetition flashcard app that lets you memorize vocab, kanji, grammar, etc. You can find a card deck online and upload it to your Anki. You can also make an account to access AnkiWeb on your phone.<br/><br/>Please check the last few slides of Week 2\'s PowerPoint for a guide on how to install Anki. If you have any questions, contact us in the WhatsApp!',
         ],
         [
           'Tsumu',
