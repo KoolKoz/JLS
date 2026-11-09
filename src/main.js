@@ -142,6 +142,26 @@ const chapters = [
     },
   },
   {
+    number: '07',
+    title: '~たい, question words, ~たり, and how to list nouns.',
+    description: 'Week 7',
+    article: {
+      label: 'Chapter 07',
+      title: '~たい, question words, ~たり, and how to list nouns.',
+      intro: 'Looking at more ways to customize verbs and ask questions.',
+      sections: [
+        [
+          'Week 7 Article',
+          `<a href="${import.meta.env.BASE_URL}pp/Japanese%20Language%20Society%20Week%207.pdf" target="_blank">Click here to view the annotated article.</a>`,
+        ],
+        [
+          'くらい / ぐらい',
+          `くらい and ぐらい translate to "about" or "approximately". They are interchangeable, but ぐらい is more common in spoken Japanese.<br/><br/>Ex: 30分くらい (30 fun kurai) = <b>about</b> 30 minutes.<br/><br/>You can approximate things other than quantities, such as locations and times.<br/><br/>Ex: コンビニはどこぐらいですか? (konbini wa doko gurai desu ka) = <b>About</b> where is the convenience store?`,
+        ],
+      ],
+    },
+  },
+  {
     number: 'X.01',
     title: 'Useful resources',
     description: '',
